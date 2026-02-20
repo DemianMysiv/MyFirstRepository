@@ -1,0 +1,95 @@
+# C++ Template
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# JetBrains IDEs (CLion, IntelliJ, etc.)
+# User-specific stuff
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle and Plugins
+.idea/gradle.xml
+.idea/libraries
+.idea/mongoSettings.xml
+.idea_modules/
+*.iws
+
+# Build Systems & Tools
+cmake-*
+build/
+build-*
+out/
+install/
+.vscode/
+
+# Plugins & Third-party
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+docker/deps
+
+# Logs and Cache
+*.log
+*.log.cache
+cache
+*__pycache__*
+test_result*
+
+# Other specific files from lectures
+src/engine_version.hpp
+demo/*.zip
+*trt_serialized*
+ocr_det
+ocr_rec
+container
+* - Copy*
+images
+env
+env_unix
+openvino_models
+ocr_engine.yaml
+result.txt
+openvino_prof_*.csv
+
+# System files
+Thumbs.db
+desktop.ini
